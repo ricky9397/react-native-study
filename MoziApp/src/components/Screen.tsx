@@ -34,7 +34,7 @@ interface ScreenProps {
     title?: string;
     children?: React.ReactNode;
 }
-
+ 
 const Screen = ({children, title}: ScreenProps) => {
     return (
     <SafeAreaView style={styles.container}>
